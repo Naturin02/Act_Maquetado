@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pasaporte</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario de Pasaporte</h1>
+    </header>
+    
+    <main>
+        <form class="passport-form">
+            <div>
+                <label for="lastname">Apellido (como se muestra en su pasaporte)</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </div>
+            
+            <div>
+                <label for="firstname">Nombre (solo nombre)</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </div>
+            
+            <div>
+                <label for="dob">Fecha de nacimiento</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            
+            <div>
+                <label for="birthcity">Ciudad de nacimiento</label>
+                <input type="text" id="birthcity" name="birthcity" required>
+            </div>
+            
+            <div>
+                <label for="birthcountry">País de nacimiento</label>
+                <input type="text" id="birthcountry" name="birthcountry" required>
+            </div>
+            
+            <div>
+                <label for="nationality">Nacionalidad</label>
+                <input type="text" id="nationality" name="nationality" required>
+            </div>
+            
+            <div>
+                <label for="passportnumber">Número de pasaporte</label>
+                <input type="text" id="passportnumber" name="passportnumber" required>
+            </div>
+            
+            <div>
+                <label for="passportcountry">País donde ha sido emitido su pasaporte</label>
+                <input type="text" id="passportcountry" name="passportcountry" required>
+            </div>
+            
+            <div>
+                <label for="issuedate">Fecha de emisión del pasaporte</label>
+                <input type="date" id="issuedate" name="issuedate" required>
+            </div>
+            
+            <div>
+                <label for="expirydate">Fecha de vencimiento del pasaporte</label>
+                <input type="date" id="expirydate" name="expirydate" required>
+            </div>
+            
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
